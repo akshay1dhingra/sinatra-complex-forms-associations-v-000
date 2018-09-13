@@ -11,12 +11,11 @@ gem 'rspec'
 gem 'rack-test'
 gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 gem 'require_all'
-gem 'sinatra'
+
 
 group :test do
       gem "tux"
       gem 'rspec'
       gem 'capybara'
-      gem 'rack-test'
       gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
     end
