@@ -14,8 +14,5 @@ gem 'require_all'
 
 
 group :test do
-      gem "tux"
-      gem 'rspec'
       gem 'capybara'
-      gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
     end
